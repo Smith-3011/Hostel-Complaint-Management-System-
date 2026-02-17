@@ -90,7 +90,7 @@ A full-stack web application to **digitize and streamline hostel issue reporting
 ### Dev Tools
 
 *   Vite
-    
+
 *   Postman
     
 *   Git & GitHub
@@ -115,7 +115,26 @@ A full-stack web application to **digitize and streamline hostel issue reporting
 📁 Project Structure
 --------------------
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   Hostel-Complaint-Management-System/  ├── backend/  │   ├── controllers/  │   ├── models/  │   ├── routes/  │   ├── middleware/  │   ├── utils/  │   ├── index.js  │   └── package.json  ├── frontend/  │   ├── src/  │   │   ├── components/  │   │   ├── pages/  │   │   ├── services/  │   │   ├── App.jsx  │   │   └── main.jsx  │   └── package.json  └── README.md   `
+```text
+Hostel-Complaint-Management-System/
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   ├── utils/
+│   ├── index.js
+│   └── package.json
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   └── package.json
+└── README.md
+```
 
 🔐 Authentication & Roles
 -------------------------
@@ -171,19 +190,38 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 
 ### 🔧 Backend Setup
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   cd backend  npm install   `
+```bash 
+cd backend  
+npm install  
+```
 
-Create a .env file in backend/:
+### Create a .env file in backend/:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   PORT=5000  MONGO_URI=your_mongodb_connection_string  JWT_SECRET=your_jwt_secret  CLOUDINARY_CLOUD_NAME=your_cloud_name  CLOUDINARY_API_KEY=your_api_key  CLOUDINARY_API_SECRET=your_api_secret  EMAIL_USER=your_email  EMAIL_PASS=your_email_password  AI_API_KEY=your_ai_api_key   `
+```bash
+PORT=5000  
+MONGO_URI=your_mongodb_connection_string  
+JWT_SECRET=your_jwt_secret  
+CLOUDINARY_CLOUD_NAME=your_cloud_name  
+CLOUDINARY_API_KEY=your_api_key  
+CLOUDINARY_API_SECRET=your_api_secret  
+EMAIL_USER=your_email  
+EMAIL_PASS=your_email_password  
+AI_API_KEY=your_ai_api_key  
+```
 
-Start backend:
+### Start backend:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   npm run dev   `
+```bash
+npm run dev   
+```
 
 ### 🎨 Frontend Setup
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   cd frontend  npm install  npm run dev   `
+```bash
+cd frontend  
+npm install  
+npm run dev   
+```
 
 📡 API Highlights
 -----------------
@@ -225,7 +263,9 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 
 ### Frontend
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   npm run build   `
+```bash
+npm run build   
+```
 
 *   Deploy dist/ folder to Netlify / Vercel
     
